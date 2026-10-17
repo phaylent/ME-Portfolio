@@ -11,3 +11,11 @@ My primary contributions focused on boundary condition assignment, post-processi
 - **Boundary Conditions:** Implemented functionality for assigning boundary conditions and applying loads to the model.
 - **Post-Processing:** Developed visualization tools for displaying structural deformation and stress results along with calculations.
 - **Auto-Convergence Solver:** Implemented an iterative mesh refinement process that continues until the specified error tolerance is met.
+
+<p align="center">
+  <img src="images/fea-bc-loading-view.png" width="48%" alt="BC and loading tab showing DXF geometry, mesh, and a traction load">
+  <img src="images/fea-postprocessing-contours.png" width="48%" alt="Post-processing tab showing deformation and stress contours">
+</p>
+<p align="center">
+  <em>Left: boundary condition and load assignment. Right: post-processing of deformation and stress.</em>
+</p>
