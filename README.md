@@ -1,8 +1,7 @@
 # ME-Portfolio
 This portfolio showcases my engineering projects, simulations, and applications of MATLAB, ANSYS, and numerical methods .
 
-# Outside of this repo: 
-Custom 2D Finite Element Analysis Program 
+# Custom 2D Finite Element Analysis Program 
 https://github.com/phaylent/ME522_MatlabFEAProject.git 
 A MATLAB-based 2D structural finite element analysis (FEA) application developed by a team of three over five weeks. The program supports geometry creation, mesh generation, boundary condition assignment, and stress and deformation visualization, with an auto-convergence solver for mesh refinement.
 
