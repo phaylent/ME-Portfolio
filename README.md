@@ -38,3 +38,53 @@ Focused on discretization, solver implementation, and verification:
 </p>
 
 *Left: stream function, velocity field, and surface Cp compared with the exact potential-flow solution. Right: Mach number, pressure, density, and temperature along the duct.*
+
+
+## Steady-State Thermal Analysis of a Heated Sphere
+
+**Tools:** ANSYS Mechanical, MATLAB  
+**Methods:** Thermal FEA, Analytical Heat Transfer, Numerical Validation
+
+### Project Overview
+
+Investigated steady-state heat conduction in a solid sphere with internal volumetric heat generation and heat transfer at the outer surface. Developed an analytical solution in MATLAB, modeled the sphere using a one-eighth symmetry model in ANSYS Mechanical, and implemented an independent one-dimensional finite element solution for comparison.
+
+### Methodology
+
+- **Analytical Solution:** Derived the radial temperature distribution using the governing spherical heat conduction equation and appropriate boundary conditions.
+- **ANSYS Thermal FEA:** Created a one-eighth solid model, applied thermal loads and boundary conditions, and extracted the temperature distribution along a radial path.
+- **MATLAB 1D FEA:** Implemented a five-element, one-dimensional heat conduction model by assembling the global stiffness matrix and forcing vector.
+- **Numerical Validation:** Compared the analytical solution, ANSYS results, and MATLAB finite element solution to evaluate agreement between the methods.
+
+### Results
+
+The ANSYS model produced the following temperatures:
+
+| Location | Temperature |
+|---|---:|
+| Sphere center | 407.67 K |
+| Outer surface | 392.06 K |
+| Temperature difference | 15.61 K |
+
+**Temperature Distribution Comparison**
+
+![Temperature distribution comparison](images/temperature_comparison.png)
+
+**ANSYS Temperature Contour**
+
+![ANSYS temperature contour](images/temperature_contour.png)
+
+### Engineering Relevance
+
+This project demonstrates thermal modeling techniques relevant to aerospace structures and thermal protection analysis, including heat conduction, volumetric heat generation, surface heat transfer, and numerical validation.
+
+The model represents a simplified heated sphere rather than a complete atmospheric re-entry simulation; it does not directly model aerodynamic heating or transient re-entry conditions.
+
+### Skills Demonstrated
+
+- ANSYS Mechanical thermal analysis
+- MATLAB numerical modeling
+- Analytical heat transfer
+- One-dimensional and three-dimensional finite element analysis
+- Thermal boundary conditions and symmetry modeling
+- Numerical solution comparison and validation
