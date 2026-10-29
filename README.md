@@ -20,7 +20,7 @@ My primary contributions focused on boundary condition assignment, post-processi
   <em>Left: boundary condition and load assignment. Right: post-processing of deformation and stress.</em>
 </p>
 
-## Finite-Difference CFD Solvers in MATLAB
+## CFD Solvers in MATLAB
 
 [numerical-fluids-matlab](https://github.com/phaylent/numerical-fluids-matlab)
 
