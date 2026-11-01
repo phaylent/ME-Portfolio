@@ -19,8 +19,9 @@ My primary contributions focused on boundary condition assignment, post-processi
 <p align="center">
   <em>Left: boundary condition and load assignment. Right: post-processing of deformation and stress.</em>
 </p>
-## Finite-Difference CFD Solvers in MATLAB
 
+
+## Finite-Difference CFD Solvers in MATLAB
 [numerical-fluids-matlab](https://github.com/phaylent/numerical-fluids-matlab)
 
 A set of MATLAB solvers I developed individually to study numerical methods for fluid flow, covering incompressible potential flow, advection schemes, and compressible duct flow. Each solver is validated against an exact or analytical solution, with grid-convergence studies.
